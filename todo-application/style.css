@@ -1,0 +1,28 @@
+.firstHeadingStyles {
+    color: black;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+.secondHeadingStyle {
+    color: black;
+    font-family: "Roboto";
+}
+
+.inputStyle {
+    border-radius: 10px;
+    height:20px;
+    width:300px;
+}
+
+.buttonStyle {
+    color:white;
+    background-color: rgba(0, 0, 0, 0.889);
+    margin-top: 5px;
+    margin-left: 3px;
+}
+
+.sampleTest {
+    color:black
+}
+
