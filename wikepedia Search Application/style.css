@@ -1,0 +1,27 @@
+.bgContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.imageStyle {
+    height: 150px;
+    width: 170px;
+}
+
+.titleStyle {
+    font-size: 22px;
+  }
+  
+  .paraStyle {
+    color: #444444;
+    font-size: 15px;
+  }
+  
+  .linkStyle {
+    color: #006621;
+    text-decoration: none;
+  }
