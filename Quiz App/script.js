@@ -69,7 +69,6 @@ let isAnswerSelected = false;
 
 function selectAnswer() {
     if (isAnswerSelected) {
-        // If an answer is already selected, do nothing
         return;
     }
 
@@ -80,14 +79,13 @@ function selectAnswer() {
 }
 
 function handleOptionSelection(optionElement, optionIndex) {
-    isAnswerSelected = true; // Mark that an answer is selected
 
     if (cricketQuestions[currentquestionIndex].options[optionIndex].isCorrect) {
         paraTextEl.textContent = "Correct Answer";
-        optionElement.classList.add("buttonGreen"); // Add green background for the correct answer
+        optionElement.classList.add("buttonGreen");
     } else {
         paraTextEl.textContent = "Wrong Answer";
-        optionElement.classList.add("buttonRed"); // Add red background for the wrong answer
+        optionElement.classList.add("buttonRed");
     }
 
     // Disable further selection of options
