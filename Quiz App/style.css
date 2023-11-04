@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+.bg-conatiner {
+    background-color: rgb(50, 33, 66);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerContainer {
+    background-color: aliceblue;
+    height:80vh;
+    width:470px;
+    padding:10px
+}
+
+.AbuttonStyle {
+    height: 25px;
+    width: 300px;
+    margin-left: 68px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.BbuttonStyle {
+    height: 25px;
+    width: 300px;
+    margin-left: 68px;
+    margin-bottom: 20px;
+}
+
+.CbuttonStyle {
+    height: 25px;
+    width: 300px;
+    margin-left: 68px;
+    margin-bottom: 20px;
+}
+
+.DbuttonStyle {
+    height: 25px;
+    width: 300px;
+    margin-left: 68px;
+    margin-bottom: 20px;
+}
+
+.paraStyle {
+    margin-top: 20px;
+}
+
+.lineStyle {
+    margin-top: 20px;
+    color:rgb(50, 33, 66);
+    font-weight: 400;
+    border-width: 2px;
+}
+
+.next-ButtonStyle {
+    width:70px;
+    background-color:rgb(50, 33, 66) ;
+    color:white;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submitButtonStyle {
+    width:70px;
+    background-color:rgb(50, 33, 66) ;
+    color:white;
+    display: none;
+    margin: 0 auto;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.restartButtonStyle {
+    width:70px;
+    background-color:rgb(50, 33, 66) ;
+    color:white;
+    display: none;
+    margin: 0 auto;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.start-ButtonStyle {
+    width:70px;
+    background-color:rgb(50, 33, 66) ;
+    color:white;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.displayQuestiononclick {
+    display:block;
+}
+
+
+.buttonGreen {
+    background-color: green;
+    color:white;
+}
+
+.buttonRed {
+    background-color: red;
+    color:white;
+}
